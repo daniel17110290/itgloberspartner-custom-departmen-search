@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import { useQuery } from "react-apollo"
 import QUERY_VALUE from "../graphql/getDepartmentGroup.graphql"
 import DepartmentGroup from "./DepartmentGroup"
+import styles from "./styles.css"
 
 import { SearchBar } from "vtex.store-components"
 
@@ -13,7 +14,7 @@ const DepartmentSearch = () => {
     ?
     <div>loading...</div>
     :
-    <div className="flex">
+    <div className={styles.containerDepartment}>
       <DepartmentGroup
         departments={data?.categories[0]?.children}
         handleSetSlug={setSlug}

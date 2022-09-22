@@ -1,4 +1,5 @@
 import React from "react"
+import styles from "./styles.css"
 
 type Props = {
   departments: [Category],
@@ -26,7 +27,7 @@ const DepartmentGroup = ({ departments, handleSetSlug }: Props) => {
     )
   })
   return (
-    <select
+    <select className={styles.select}
       onChange={onHandleSetSlug}
       defaultValue="value0"
     >
