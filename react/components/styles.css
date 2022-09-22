@@ -1,0 +1,11 @@
+.select{
+  margin-right: 1rem;
+  height: 50%;
+  border-radius: 8px;
+}
+.containerDepartment{
+  display: flex;
+    margin: 0 auto;
+    width: 50%;
+    align-items: center;
+}
