@@ -6,7 +6,7 @@
 
 ## :pencil2: Informacion general
 
-Este repositorio contiene el codigo necesario para crear un componente personalizado el cual permite buscar un producto por su SKU, de esta manera comprarlo de manera rapida añadiendolo directamente al checkout
+Este repositorio contiene el codigo necesario para crear un componente personalizado el cual permite buscar un producto por su nombre con su respectivo departamento, el cual dirigira al detalle del producto.
 este componente fue creado para una tienda diseñada en vtex io.
 
 ## :wrench: Configuracion 
