@@ -1,4 +1,4 @@
-# :bulb: filters custom
+# :bulb: custom search
 
 ![image](https://user-images.githubusercontent.com/96321122/195452148-9d414fe2-a2dd-4565-8b44-596fb4b77ee3.png)
 
